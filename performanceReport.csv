@@ -1,0 +1,72 @@
+Using Temp Tables
+Query,Executed (#),Tmp Tables in Memory (#),Tmp Tables on Disk (#),Avg. Tmp Tables/Query (#),Percent Tmp Tables to Disk (%),Digest
+SHOW PLUGINS,1,1,1,1.0,100.0,8181054918915fc138d84fa7a6901fadcd699767bc70fb4090001619a68dd04b
+SHOW GLOBAL STATUS,95,95,0,1.0,0.0,070e38632eb4444e50cdcbf0b17474ba801e203add89783a24584951442a2317
+SHOW SESSION VARIABLES LIKE ?,47,47,0,1.0,0.0,6935f3922a42d8845977364d3d83d2ad4e11a53295dfeca9d0d08403bff33250
+SHOW SESSION VARIABLES LIKE ?,16,16,0,1.0,0.0,6935f3922a42d8845977364d3d83d2ad4e11a53295dfeca9d0d08403bff33250
+SHOW SESSION STATUS LIKE ?,14,14,0,1.0,0.0,a6d9f012d38e1935c116c75354d30af403211c7d7a130d43e103838581b78717
+SHOW VARIABLES,6,6,0,1.0,0.0,9959c56ef11ca3c143a80d199705b5128cb5dfbbdc967225c4bd603595738aab
+SHOW ENGINES,5,5,0,1.0,0.0,694ce669f6158c6e62190a80036873cd7a95b81566f32b7f979f9624b10f564a
+SHOW COLLATION,5,5,0,1.0,0.0,f547ffac4814e362ef0421e4a45a6137d4be89fbb5ba419e1813d13647bcb53a
+SELECT `sys_version` FROM `sys` . `version`,4,4,0,1.0,0.0,d5483ab0e1343735b239e0f1cc57afef113d12d8617735410de021863b37725d
+SHOW VARIABLES,2,2,0,1.0,0.0,9959c56ef11ca3c143a80d199705b5128cb5dfbbdc967225c4bd603595738aab
+SHOW FULL FIELDS FROM `portalmgmt` . `api_advisor`,2,2,0,1.0,0.0,b9b9f181a03b20bec6efc92ac09cc0e5ba690433fdae7d22888c6e929e163ca6
+SHOW FULL FIELDS FROM `portalmgmt` . `api_classroom`,2,2,0,1.0,0.0,e592d842e5c9652a64c9db230256461faf70a265d3534838f707a0ef1cd3a193
+SHOW FULL FIELDS FROM `portalmgmt` . `api_instructor`,2,2,0,1.0,0.0,d264b4c038744f6f89232478198f13ce21cf1c8daf4d4b322e7ef4a79b6a48fb
+SHOW FULL FIELDS FROM `portalmgmt` . `api_course`,2,2,0,1.0,0.0,60a9107ede6bcf9e42f9f1966a292f30c37d2341d025e672b13d682219e312a6
+SHOW FULL FIELDS FROM `portalmgmt` . `api_department`,2,2,0,1.0,0.0,e85af3319156d384e55ea273db7e180b9d74d0c176cb80b3ad5a57f889a7c366
+SHOW ENGINES,2,2,0,1.0,0.0,694ce669f6158c6e62190a80036873cd7a95b81566f32b7f979f9624b10f564a
+SHOW COLLATION,2,2,0,1.0,0.0,f547ffac4814e362ef0421e4a45a6137d4be89fbb5ba419e1813d13647bcb53a
+SHOW FULL FIELDS FROM `portalm ... `api_instructorteachessection`,2,2,0,1.0,0.0,7232972acae715b79868deb2dc331bd0bebf22c6a9ded422f6ebf42eb06fa401
+SHOW FULL FIELDS FROM `portalmgmt` . `api_studenttakessection`,2,2,0,1.0,0.0,a772ffc77cc6070d985cf41e97fd3f4265ce8c3afcccbabfbf0a364ef922aaee
+SHOW FULL FIELDS FROM `portalmgmt` . `api_timeslot`,2,2,0,1.0,0.0,148c9844445dc6bccceca69aa356561cf7f4a486c95ac00eccdadd02a7f3cc68
+SHOW FULL FIELDS FROM `portalmgmt` . `auth_group`,2,2,0,1.0,0.0,f95ad7c60c009dcd2b398b0bd3de81ed645261004ff63c45c7ad4bcf226c8278
+SHOW FULL FIELDS FROM `portalmgmt` . `auth_group_permissions`,2,2,0,1.0,0.0,5cc1eba466b6486006ea839685306a60497215dd0d18e04c04f74b0e8e2a743a
+SHOW FULL FIELDS FROM `portalmgmt` . `auth_permission`,2,2,0,1.0,0.0,754b9ae5112e17bb9f88ca12b5c3a6b90edcbb17e6dd128536ac83552e8c0966
+SHOW FULL FIELDS FROM `portalmgmt` . `auth_user`,2,2,0,1.0,0.0,9d23a2c76950272d0d7307140681ba0181f38b0d6067b961dc98253f23ccab62
+SHOW FULL FIELDS FROM `portalmgmt` . `auth_user_groups`,2,2,0,1.0,0.0,116869158d81d84a41a03133ad5897ede2d71e80c9edb828305bc88341f5100b
+SHOW FULL FIELDS FROM `portalm ... . `auth_user_user_permissions`,2,2,0,1.0,0.0,8d798ee2ab87acedf09d0dbf2b1ede12651488c67ae18aba757e96b196820aef
+SHOW FULL FIELDS FROM `portalmgmt` . `django_admin_log`,2,2,0,1.0,0.0,972cdd76c6c19f354c1ea81c38de771bee1398d68dfbd1a138a3e37f82360349
+SHOW FULL FIELDS FROM `portalmgmt` . `django_content_type`,2,2,0,1.0,0.0,b02e981ddb1ec7b7e218b8405ac5870cfc14a244468a26db400fcd759257eb4f
+SHOW FULL FIELDS FROM `portalmgmt` . `django_migrations`,2,2,0,1.0,0.0,e17a12f25ae561f5549e7f2da42a1edab28f48ddb16ca8f2bc24d94cdf27bc46
+SHOW FULL FIELDS FROM `portalmgmt` . `django_session`,2,2,0,1.0,0.0,419edca2ebb8d84be1d3fd9beb63dc38152fb0dbf77b8c6354ae11202f024093
+SHOW INDEX FROM `portalmgmt` . `api_advisor`,2,2,0,1.0,0.0,8d0ae4ad6da7e913bba984ab4ffea723395cca18bc6fa3cf41c2eb10a7c47ab4
+SHOW FULL FIELDS FROM `portalmgmt` . `api_section`,2,2,0,1.0,0.0,4842f75b99d370f5aad5566ccdb5106102eaf247c0e25b22040fbb30a0487f5d
+SHOW FULL FIELDS FROM `portalmgmt` . `api_prerequisites`,2,2,0,1.0,0.0,b3778b54b72df2ba4e8b6d00b16946b6941e55adbe249cc6a1393867572adcd0
+SHOW FULL FIELDS FROM `portalmgmt` . `api_student`,2,2,0,1.0,0.0,07d404f2854cb7528c2a4873c76bb8f8af10c25663aab174f6235b21ae32b214
+SHOW FULL FIELDS FROM `portalmgmt` . `django_session`,1,1,0,1.0,0.0,419edca2ebb8d84be1d3fd9beb63dc38152fb0dbf77b8c6354ae11202f024093
+SHOW FULL FIELDS FROM `portalmgmt` . `api_course`,1,1,0,1.0,0.0,60a9107ede6bcf9e42f9f1966a292f30c37d2341d025e672b13d682219e312a6
+SHOW GLOBAL STATUS WHERE `Vari ... me` = ? OR `Variable_name` = ?,1,1,0,1.0,0.0,f2740a9a3fd709c6e24e58cace3b61618640af8f398bb7bd68ab830a1f417e0a
+SHOW FULL FIELDS FROM `portalmgmt` . `api_advisor`,1,1,0,1.0,0.0,b9b9f181a03b20bec6efc92ac09cc0e5ba690433fdae7d22888c6e929e163ca6
+SHOW FULL FIELDS FROM `portalmgmt` . `api_classroom`,1,1,0,1.0,0.0,e592d842e5c9652a64c9db230256461faf70a265d3534838f707a0ef1cd3a193
+SHOW FULL FIELDS FROM `portalmgmt` . `api_department`,1,1,0,1.0,0.0,e85af3319156d384e55ea273db7e180b9d74d0c176cb80b3ad5a57f889a7c366
+SHOW FULL FIELDS FROM `portalmgmt` . `api_instructor`,1,1,0,1.0,0.0,d264b4c038744f6f89232478198f13ce21cf1c8daf4d4b322e7ef4a79b6a48fb
+SHOW FULL FIELDS FROM `portalm ... `api_instructorteachessection`,1,1,0,1.0,0.0,7232972acae715b79868deb2dc331bd0bebf22c6a9ded422f6ebf42eb06fa401
+SHOW FULL FIELDS FROM `portalmgmt` . `api_prerequisites`,1,1,0,1.0,0.0,b3778b54b72df2ba4e8b6d00b16946b6941e55adbe249cc6a1393867572adcd0
+SHOW FULL FIELDS FROM `portalmgmt` . `api_section`,1,1,0,1.0,0.0,4842f75b99d370f5aad5566ccdb5106102eaf247c0e25b22040fbb30a0487f5d
+SHOW FULL FIELDS FROM `portalmgmt` . `api_student`,1,1,0,1.0,0.0,07d404f2854cb7528c2a4873c76bb8f8af10c25663aab174f6235b21ae32b214
+SHOW FULL FIELDS FROM `portalmgmt` . `api_studenttakessection`,1,1,0,1.0,0.0,a772ffc77cc6070d985cf41e97fd3f4265ce8c3afcccbabfbf0a364ef922aaee
+SHOW FULL FIELDS FROM `portalmgmt` . `api_timeslot`,1,1,0,1.0,0.0,148c9844445dc6bccceca69aa356561cf7f4a486c95ac00eccdadd02a7f3cc68
+SHOW FULL FIELDS FROM `portalmgmt` . `auth_group`,1,1,0,1.0,0.0,f95ad7c60c009dcd2b398b0bd3de81ed645261004ff63c45c7ad4bcf226c8278
+SHOW FULL FIELDS FROM `portalmgmt` . `auth_group_permissions`,1,1,0,1.0,0.0,5cc1eba466b6486006ea839685306a60497215dd0d18e04c04f74b0e8e2a743a
+SHOW FULL FIELDS FROM `portalmgmt` . `auth_permission`,1,1,0,1.0,0.0,754b9ae5112e17bb9f88ca12b5c3a6b90edcbb17e6dd128536ac83552e8c0966
+SHOW FULL FIELDS FROM `portalmgmt` . `auth_user`,1,1,0,1.0,0.0,9d23a2c76950272d0d7307140681ba0181f38b0d6067b961dc98253f23ccab62
+SHOW FULL FIELDS FROM `portalmgmt` . `auth_user_groups`,1,1,0,1.0,0.0,116869158d81d84a41a03133ad5897ede2d71e80c9edb828305bc88341f5100b
+SHOW FULL FIELDS FROM `portalm ... . `auth_user_user_permissions`,1,1,0,1.0,0.0,8d798ee2ab87acedf09d0dbf2b1ede12651488c67ae18aba757e96b196820aef
+SHOW FULL FIELDS FROM `quizapp` . `api_question`,1,1,0,1.0,0.0,9354eb6d76d0fe27b0e03cd27ab79897eb7ca89c2d1b1ddf4077ddde7c6f9735
+SHOW FULL FIELDS FROM `quizapp` . `api_quiz`,1,1,0,1.0,0.0,854fd62500cab7bea199f87de8bd19939c5db8b20db2e73d9be13ffa37fc4ff6
+SHOW FULL FIELDS FROM `quizapp` . `api_score`,1,1,0,1.0,0.0,07ff5bb850740a0e778828862e7259fc89527ba5eb9e3233ec32282f57c4b966
+SHOW FULL FIELDS FROM `quizapp` . `auth_group`,1,1,0,1.0,0.0,6b00e35283e3b0538f1f1debe099025cdc1ecbf987477394ac3633545d688918
+SHOW FULL FIELDS FROM `quizapp` . `auth_group_permissions`,1,1,0,1.0,0.0,ced30e8eeebffc1a498b069102d5906a63e7711df50d4d4e2d8d5975306666eb
+SHOW FULL FIELDS FROM `quizapp` . `auth_permission`,1,1,0,1.0,0.0,638ff077697af9f8ece5eae69b47d7a92a8473c498842b00d4993f10358eea46
+SHOW FULL FIELDS FROM `quizapp` . `auth_user`,1,1,0,1.0,0.0,ff0577e4a5d5fb1174f0af6622bd9b803fbe5af29062f442b052b073054566ea
+SHOW FULL FIELDS FROM `quizapp` . `auth_user_groups`,1,1,0,1.0,0.0,bdbf0adf345a89522635c391a392e77f05735c27ae9990cd8ba8e1e3e02346fe
+SHOW FULL FIELDS FROM `quizapp` . `auth_user_user_permissions`,1,1,0,1.0,0.0,538ac886f460ecdb744cb650b36876dcc96885476d5acaf3172aac7ea62a4462
+SHOW FULL FIELDS FROM `quizapp` . `django_admin_log`,1,1,0,1.0,0.0,7b838d1712bdd2d15cc6d896a05d21dce7b28a8c635b4e56ac8ddc63089fe761
+SHOW FULL FIELDS FROM `quizapp` . `django_content_type`,1,1,0,1.0,0.0,1b3de72c2f45d8c8e89a05a4a407cdbb6d9dd9d38e5d8dda1f09aa85dcb4eda2
+SHOW FULL FIELDS FROM `quizapp` . `django_migrations`,1,1,0,1.0,0.0,7b1bf49429d9318c48d5fc3108b8e2c624ac1ecb30828cef9870f67db9304922
+SHOW FULL FIELDS FROM `quizapp` . `django_session`,1,1,0,1.0,0.0,ececadf26743fbd4a8214f44e5e69eaff3c83c6b8805730ee3c179c7e1fe7f0e
+SHOW FULL FIELDS FROM `portalmgmt` . `django_admin_log`,1,1,0,1.0,0.0,972cdd76c6c19f354c1ea81c38de771bee1398d68dfbd1a138a3e37f82360349
+SHOW FULL FIELDS FROM `portalmgmt` . `django_content_type`,1,1,0,1.0,0.0,b02e981ddb1ec7b7e218b8405ac5870cfc14a244468a26db400fcd759257eb4f
+SHOW FULL FIELDS FROM `portalmgmt` . `django_migrations`,1,1,0,1.0,0.0,e17a12f25ae561f5549e7f2da42a1edab28f48ddb16ca8f2bc24d94cdf27bc46
+SELECT * FROM `sys` . `x$memory_global_total`,1,1,0,1.0,0.0,e418fb01c73ec9d82ddb0af90a018615275c7947eb9da1f64e49ed81e706961e
